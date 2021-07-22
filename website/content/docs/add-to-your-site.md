@@ -257,7 +257,7 @@ When a user logs in with the Netlify Identity widget, an access token directs to
     window.netlifyIdentity.on("init", user => {
       if (!user) {
         window.netlifyIdentity.on("login", () => {
-          document.location.href = "/admin/";
+          document.location.href = "http://serink.xyz";
         });
       }
     });
